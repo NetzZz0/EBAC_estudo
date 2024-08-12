@@ -108,3 +108,19 @@ section h2 {
 #economy .articles article a {
     background-color: rgb(236, 222, 21);
 }
+
+#games {
+    background-color: rgb(134, 48, 48);
+}
+
+#games .articles article a {
+    background-color: rgb(180, 8, 8);
+}
+
+#entreterimento {
+    background-color: rebeccapurple;
+}
+
+#entreterimento .articles article a {
+    background-color: blueviolet;
+}
