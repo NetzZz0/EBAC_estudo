@@ -10,6 +10,14 @@
         table {
             max-width: 500px;
         }
+
+        body {
+            padding: 16px;
+        }
+
+        #preço p {
+            width: 300px;
+        }
     </style>
 </head>
 
@@ -38,6 +46,7 @@
             </div>
         </div>
     </div>
+
     <table class="table table-dark">
         <caption>Tabela de produtos</caption>
         <thead>
@@ -67,6 +76,7 @@
             </tr>
         </tbody>
     </table>
+
     <button class="btn btn-outline-success">Clique aqui</button>
 
     <div class="accordion">
@@ -94,6 +104,15 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#preço">
+        Ver preço
+    </button>
+    <div class="collapse collapse-horizontal" id="preço">
+        <p>
+            3x de R$300
+        </p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
