@@ -1,0 +1,19 @@
+table {
+    max-width: 500px;
+}
+
+body {
+    padding: 16px;
+}
+
+#preço p {
+    width: 300px;
+}
+
+time {
+    display: block;
+}
+
+.post {
+    margin: 24px;
+}
